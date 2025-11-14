@@ -9,22 +9,41 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>MailRandom</title>
 </head>
+<header>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/favicon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                FakeMail
+            </a>
+        </div>
+    </nav>
+</header>
 
 <body>
 
-    <div class="containter">
+    <main>
+        <div class="containter">
+            <div class="row">
+                <div class="col-2">
+                    lateral-sx
+                </div>
 
-        <!-- List-Mail -->
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-            <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item">And a fifth one</li>
-        </ul>
-        <!-- End-List-Mail -->
-
-    </div>
+                <div class="col-8">
+                    <!-- List-Mail -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">email@gmail.com</li>
+                        <li class="list-group-item">email@gmail.com</li>
+                        <li class="list-group-item">email@gmail.com</li>
+                    </ul>
+                    <!-- End-List-Mail -->
+                </div>
+                <div class="col-2">
+                    lateral-rx
+                </div>
+            </div>
+        </div>
+    </main>
 
     <!-- Axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
